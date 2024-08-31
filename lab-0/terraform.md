@@ -52,5 +52,23 @@ resource "azurerm_virtual_network" "myVirtualNetwork" {
 
 * Terraform using **azurerm** to create services inside the Azure&#x20;
 * Replace resource\_group\_name = "" with yours from Azure , if you don't have Resource Group then create a new&#x20;
-*
 
+### Create Azure Resource Group using Az Portal&#x20;
+
+*   Az portal --> search--> Resource Group --> Create New RG&#x20;
+
+    <figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+
+#### Run Code&#x20;
+
+```hcl
+terraform init
+```
+
+<figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption><p>terraform init</p></figcaption></figure>
+
+```
+terraform plan 
+```
+
+<figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
